@@ -1,0 +1,159 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #fff;
+	font-family: "calibri";
+}
+
+.header {
+	background: #043465;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.container {
+	margin: 0 10%;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: inline-block;
+	width: 74.5%;
+	text-align: right;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: inline;
+}
+
+nav li {
+	display: inline;
+	margin: 0 16px;
+}
+
+nav li span {
+	color: #579fe8;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav li a:hover {
+	color: #579fe8;
+}
+
+nav li.sub {
+	margin: 0;
+}
+
+h1 img {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+
+a.temp {
+	display: none;
+}
+
+section.carrousel {
+	display: block;
+	width: 100%;
+	height: 650px;
+	background: url(../img/carrossel.png );
+	background-size: 100%;
+	margin-top: 132px;
+	background-position: 0 -100px;
+}
+
+section.apresenta {
+	padding: 30px 0 60px 0;
+}
+
+div.apr-bloco01 {
+	display: inline-block;
+	width: 64.5%;
+	font-size: 30px;
+	text-align: left;
+}
+
+div.apr-bloco01 h2 {
+	color: #043465;
+	text-align: left;
+	font-weight: 400;
+}
+
+div.apr-bloco01 h2 span{
+	color: #72130d;
+	margin-bottom: 30px;
+	display: block;
+}
+
+div.apr-bloco01 p {
+	color: #444;
+	text-align: justify;
+	font-size: 20px;
+	width: 86%;
+	margin-bottom: 40px;
+}
+
+button.saiba {
+	background: #72130d;
+	color: #fff;
+	border: 0;
+	font-size: 18px;
+	padding: 7px 12px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+button.saiba:hover{
+	color: #579fe8;
+}
+
+div.apr-bloco02 {
+	display: inline-block;
+	width: 34.5%;
+	text-align: right;
+}
+
+div.apr-bloco02 figure {
+	margin: 0;
+	padding: 0;
+}
+
+div.apr-bloco02 img {
+	width: 90%;
+	box-shadow: 10px 10px 20px #444;
+}
+
+
+section.cards {
+	background: #043465;
+	padding-top: 50px;
+}
+
+section.cards div.container div {
+	display: inline-block;
+	width: 22%;
+	border: solid 1px #579fe8;
+	margin: 0 0.8%;
+}
+
+section.cards div.container div img{
+	margin-top: 10px;
+	width: 95%;
+}
